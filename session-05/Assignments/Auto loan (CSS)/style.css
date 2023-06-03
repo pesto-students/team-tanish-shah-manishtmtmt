@@ -1,0 +1,72 @@
+/* Your code goes here */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+.container {
+  margin: 5px;
+  font-size: 13px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  font-size: 16px;
+  color: #444444;
+  text-align: center;
+}
+
+.offer {
+  display: inline-block;
+  width: 400px;
+  margin: 4px;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+
+.offerTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00b3b3;
+  padding: 15px;
+}
+
+.offerContents {
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  background-color: #ffffff;
+  border: 0;
+}
+
+table th {
+  font-size: 12px;
+  font-weight: bold;
+  color: #777777;
+  padding: 10px;
+}
+
+table td {
+  font-weight: lighter;
+  color: #444444;
+  margin: 0;
+  padding: 20px 10px;
+}
+
+table th, td {
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.finalValue {
+  font-weight: bold;
+  color: #2222ff;
+}

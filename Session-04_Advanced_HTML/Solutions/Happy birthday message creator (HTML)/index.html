@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Message</title>
+
+    <style>
+        .row {
+            width: 350px;
+            display: flex;
+        }
+
+        .col {
+            width: 50%;
+            margin: 5px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday Message Creator</h1>
+
+    <!-- Creating a birthday message form -->
+    <form>
+        <!-- input type text with label for message -->
+        <div class="row">
+            <div class="col">
+                <label for="message">Message?</label>
+            </div>
+            <div class="col">
+                <input type="text" name="message" id="message">
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- input type email with label for email with pattern validation -->
+            <div class="col">
+                <label for="email">Email address?</label>
+            </div>
+            <div class="col">
+                <input type="email" name="email" id="email" pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-
+                9-]+)*">
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- input type date with label -->
+            <div class="col">
+                <label for="date">Date to send?</label>
+            </div>
+            <div class="col">
+                <input type="date" name="date" id="date">
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- input type color with label for selection message color -->
+            <div class="col">
+                <label for="color">Message color?</label>
+            </div>
+            <div class="col">
+                <input type="color" name="color" id="color">
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- input type number with label for taking number of blinks -->
+            <div class="col">
+                <label for="blinks">Number of blinks?</label>
+            </div>
+            <div class="col">
+                <input type="number" name="blinks" id="blinks" value="0" min="0" max="10">
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- input type range with label for selection the music volume -->
+            <div class="col">
+                <label for="volume">Music volume?</label>
+            </div>
+            <div class="col">
+                <input type="range" name="volume" id="volume" value="20" min="0" max="50">
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- button type sumbit for sending the birthday message -->
+            <button type="submit">Send Birthday Message</button>
+        </div>
+    </form>
+</body>
+</html>

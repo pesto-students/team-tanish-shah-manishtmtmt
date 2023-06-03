@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      a {
+        margin: 5px;
+      }
+    </style>
+    <title>Restaurant Reviews | Add Reviews</title>
+  </head>
+  <body>
+    <header>
+      <h1>Restaurant Reviews</h1>
+
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./addReview.html">Add Review</a>
+        <a href="./about.html">About</a>
+      </nav>
+    </header>
+
+    <h2>Add Review</h2>
+
+    <form>
+      <p>
+        <label for="name">Name?</label>
+        <input type="text" name="name" id="name" />
+      </p>
+
+      <p>
+        <label for="restaurants">Restaurants?</label>
+        <select name="restaurants" id="restaurants">
+          <option value="">Choose one...</option>
+          <option value="mainStreet">Main Street Cafe</option>
+          <option value="greekHouse">Greek House</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="date">Date of visit?</label>
+        <input type="date" name="date" id="date" />
+      </p>
+
+      <p>
+        <label for="rating">Rating?</label>
+        <input
+          type="number"
+          name="rating"
+          id="rating"
+          max="5"
+          min="1"
+          value="5"
+        />
+      </p>
+
+      <p>
+        <label for="details">Details</label>
+        <textarea name="details" id="details" cols="30" rows="10"></textarea>
+      </p>
+
+      <p>
+        <input type="submit" value="Submit" />
+      </p>
+    </form>
+
+    <footer>
+      <p>&copy; 2022 Restaurant Reviews</p>
+    </footer>
+  </body>
+</html>
