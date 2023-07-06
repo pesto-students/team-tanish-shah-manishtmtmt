@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Generator using OpenAI API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-section text-center">
+      <h1>Image Generator</h1>
+      <p>
+        This is a simple image generator using
+        <a href="https://openai.com/api/" class="font-semibold">OpenAI API.</a>
+        You can generate images by entering a short description of the image or
+        by entering a keyword. Double click on the image to download.
+      </p>
+    </div>
+    <div class="input-section">
+      <input
+        id="text"
+        class="input-style"
+        placeholder="Enter a short description of the image or a keyword"
+      />
+      <button id="generate-button">Generate Image</button>
+    </div>
+    <div id="image-container"></div>
+    <div id="loader" class="hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

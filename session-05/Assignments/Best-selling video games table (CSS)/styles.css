@@ -1,0 +1,25 @@
+:root {
+    --table-color: forestgreen;
+    --row-bg-color: honeydew;
+    font-family: Calibri, Myriad;
+ }
+    
+ /* Your solution goes here */
+
+ #game-table {
+    border: 2px solid var(--table-color);
+    text-align: center;
+    width: 400px;
+    height: 200px;
+ }
+
+ #game-table caption {
+    text-transform: uppercase;
+    background-color: var(--table-color);
+    color: #ffffff; 
+    padding: 10px;
+ }
+
+ table tr:nth-child(even) {
+    background-color: var(--row-bg-color);
+ }

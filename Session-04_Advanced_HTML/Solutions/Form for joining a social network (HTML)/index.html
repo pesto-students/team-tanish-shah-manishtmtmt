@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .row {
+            width: 300px;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .column {
+            width: 50%;
+        }
+    </style>
+    <title>Form</title>
+</head>
+<body>
+    <h1>Join a social network</h1>
+
+    <!-- creating a form -->
+    <form enctype="multipart/form-data" method="post">
+        <div class="row">
+            <div class="column">
+                <label for="fullName">Full name:</label>
+            </div>
+            <div class="column">
+                <input type="text" name="fullName" id="fullName" required >
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <label for="email">Email address:</label>
+            </div>
+            <div class="column">
+                <input type="email" name="email" id="email" required >
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <label for="about">About you:</label>
+            </div>
+           <div class="column">
+                <textarea name="about" id="about" cols="50" rows="3"></textarea>
+           </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <label for="picture">Photo:</label>
+            </div>
+            <div class="column">
+                <input type="file" name="picture" id="picture" >
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
