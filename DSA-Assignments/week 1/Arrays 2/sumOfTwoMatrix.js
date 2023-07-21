@@ -61,3 +61,6 @@ const arr3 = getInputArray(rows3, cols3, elements3);
 const arr4 = getInputArray(rows4, cols4, elements4);
 
 console.log(calculateSumOfArrays(arr3, arr4)); // [ [ 6, 8 ], [ 10, 12 ] ]
+
+// Time complexity: O(N^2)
+// Space complexity: O(N^2)

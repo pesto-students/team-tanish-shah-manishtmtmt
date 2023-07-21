@@ -7,3 +7,6 @@ function reverseANumber(num) {
   }
   return reversedNum;
 }
+
+// Time complexity: O(log(N))
+// Space complexity: O(1)

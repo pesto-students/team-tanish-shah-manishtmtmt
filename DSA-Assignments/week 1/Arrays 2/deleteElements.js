@@ -8,3 +8,6 @@ console.log(deleteElementInArray(arr1)); // [1, 5, 7]
 
 const arr2 = [9, 12, 15, 18, 21];
 console.log(deleteElementInArray(arr2)); // []
+
+// Time complexity: O(N)
+// Space complexity: O(N)

@@ -14,3 +14,6 @@ const arr2 = [5, 5, 5, 5];
 const oldKey2 = 5;
 const newKey2 = 2;
 console.log(oldKeyNewKey(arr2, oldKey2, newKey2)); // [2, 2, 2, 2]
+
+// Time complexity: O(N)
+// Space complexity: O(1)

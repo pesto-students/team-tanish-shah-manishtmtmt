@@ -19,3 +19,6 @@ console.log(nonDuplicateElement(arr1)); // 3
 
 const arr2 = [-1, -1, -2, -2, -3];
 console.log(nonDuplicateElement(arr2)); // -3
+
+// Time complexity: O(N)
+// Space complexity: O(N)

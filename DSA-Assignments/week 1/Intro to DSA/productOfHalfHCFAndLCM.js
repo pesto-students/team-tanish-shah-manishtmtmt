@@ -14,3 +14,6 @@ const productOfHCFAndLCM = (num1, num2) => {
 
   return lcm * hcf;
 };
+
+// Time complexity: O(log(N))
+// Space complexity: O(1)

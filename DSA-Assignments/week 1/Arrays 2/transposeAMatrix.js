@@ -55,3 +55,6 @@ const elements2 = "1 2 3 4 5 6 7 8";
 
 const matrix2 = getInputArray(rows2, cols2, elements2);
 console.log(transposeAMatrix(matrix2)); // 1 5 2 6 3 7 4 8
+
+// Time complexity: O(N^2)
+// Space complexity: O(1)

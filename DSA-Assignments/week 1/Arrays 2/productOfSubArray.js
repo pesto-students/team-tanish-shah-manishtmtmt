@@ -24,3 +24,6 @@ console.log(maxProductOfSubArray(N1, arr1)); // 20
 const arr2 = [-1, -2, -3, -4];
 const N2 = 4;
 console.log(maxProductOfSubArray(N2, arr2)); // 24
+
+// Time complexity: O(N);
+// Space complexity: O(1)

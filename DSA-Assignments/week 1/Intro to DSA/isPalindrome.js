@@ -22,3 +22,6 @@ function checkPalindrome() {
 }
 
 checkPalindrome();
+
+// Time complexity: O(log(N))
+// Space complexity: O(1)
