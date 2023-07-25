@@ -75,3 +75,13 @@ function main() {
 }
 
 main();
+
+/*
+
+Time Complexity:
+Best Case: O(n)
+Worst Case: O(n^2)
+
+Space Complexity: O(1)
+
+*/

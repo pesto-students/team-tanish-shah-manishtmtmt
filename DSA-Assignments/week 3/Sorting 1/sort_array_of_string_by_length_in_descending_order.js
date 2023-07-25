@@ -64,3 +64,6 @@ function main() {
 }
 
 main();
+
+// Time complexity: O(n log n)
+// Space complexity: O(log n)
