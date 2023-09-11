@@ -1,0 +1,22 @@
+.form div label,
+.form div input {
+  display: block;
+}
+
+.form {
+  width: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form input {
+  width: 70%;
+}
