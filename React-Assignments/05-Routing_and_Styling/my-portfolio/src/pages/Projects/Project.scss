@@ -1,0 +1,143 @@
+@import "../../_globalColor";
+
+.main {
+  width: 80%;
+  margin: auto;
+  padding: 12px 16px; 
+}
+
+.skills-heading {
+  line-height: 1.1;
+  text-align: center;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.card-title {
+  color: $titleColor;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 15px 0 0 0;
+}
+
+.card-subtitle {
+  color: $cardSubtitle;
+  font-size: 17px;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background-color: $lightBackground2;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
+  justify-content: center;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem 1rem;
+  margin-top: 20px;
+}
+
+.project-card-dark {
+  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.25s ease;
+}
+
+.project-card-light {
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.project-card-light:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+
+.project-card-dark:hover {
+  box-shadow: 0px 20px 30px -10px $darkBoxShadow;
+}
+
+.project-image {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+}
+
+.project-image img {
+  transition: transform 1s, filter 2s ease-in-out;
+  filter: blur(1.5px);
+  transform: scale(1.2);
+}
+
+.project-image:hover img {
+  filter: blur(0);
+  transform: scale(1);
+}
+
+.project-detail {
+  text-align: center;
+}
+
+.project-card-footer span.project-tag {
+  background: $buttonColor;
+  color: $lightBackground3;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5;
+  margin: 0 0.5rem 0 0;
+  padding: 0 0.75em;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.project-card-footer span.project-tag:hover {
+  transform: scale(1.1);
+}
+
+.project-subtitle {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .project-subtitle {
+    font-size: 16px;
+  }
+
+  .projects-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .card-subtitle {
+    line-height: 1.1rem;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+}
